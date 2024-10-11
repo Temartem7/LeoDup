@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class MenPage extends BasePage {
 
-    MenPage(WebDriver driver){
+    public MenPage(WebDriver driver){
         super(driver);
     }
 }

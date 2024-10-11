@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class AccountPage extends BasePage {
 
-    AccountPage(WebDriver driver){
+    public AccountPage(WebDriver driver){
         super(driver);
     }
 }

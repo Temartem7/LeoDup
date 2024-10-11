@@ -12,7 +12,7 @@ public class HomePage extends PurchasePage{
     By cartIcon =By.xpath("//a[@title='View your shopping cart']");
 
 
-    HomePage(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         super(driver);
     }
 }

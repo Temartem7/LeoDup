@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ProductPage extends PurchasePage{
 
-    ProductPage(WebDriver driver){
+    public ProductPage(WebDriver driver){
         super(driver);
     }
 }

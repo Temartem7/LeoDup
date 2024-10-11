@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class WomenPage extends SalesPage{
 
-    WomenPage(WebDriver driver) {
+    public WomenPage(WebDriver driver) {
         super(driver);
     }
 }

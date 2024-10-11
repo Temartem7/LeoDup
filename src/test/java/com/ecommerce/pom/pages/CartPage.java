@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class CartPage extends BasePage {
 
-    CartPage(WebDriver driver){
+    public CartPage(WebDriver driver){
         super(driver);
     }
 }

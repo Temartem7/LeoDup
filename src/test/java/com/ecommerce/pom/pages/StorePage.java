@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class StorePage extends SalesPage{
 
-    StorePage(WebDriver driver) {
+    public StorePage(WebDriver driver) {
         super(driver);
     }
 }

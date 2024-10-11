@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public abstract class PurchasePage extends BasePage {
 
-    PurchasePage(WebDriver driver) {
+    public PurchasePage(WebDriver driver) {
         super(driver);
     }
 }
